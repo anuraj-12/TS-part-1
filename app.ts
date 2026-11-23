@@ -20,3 +20,32 @@ function sum(a:number, b:number):number {
 }
 console.log(sum(5 ,1))
 
+
+
+// 
+
+const multiple = (a:number , b:number) : number =>{
+    return a * b
+}
+console.log(multiple(2, 3));
+
+
+const firstName:string = " gautam"
+const lastName :string =  "Anup"
+
+console.log(firstName.charAt(1))
+console.log(firstName.toLowerCase())
+console.log(firstName.toLocaleUpperCase())
+console.log(lastName.trim())
+
+console.log(lastName.concat( firstName))
+
+
+
+
+const sub =  (a:number , b:number):number =>{
+    return  a - b 
+}
+
+console.log(sub( 4 , 5 ))
+// console.log(sub( 4 ,"gautam"))
